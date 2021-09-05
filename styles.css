@@ -7,7 +7,14 @@ body {
   margin: 0px;
   background-color: white;
 }
-
+.bannerBox {
+  text-align: center;
+  display: inline;
+}
+.bannerText {
+  text-align: center;
+  padding: 20px;
+}
 #image_frontpage {
   max-width: 10px;
 }
@@ -53,7 +60,7 @@ body {
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: chocolate;
 }
 
 /* Show the dropdown menu on hover */
@@ -72,4 +79,10 @@ body {
   border: none;
   float: left;
   width: 50%;
+}
+/*This is css for the message */
+.introMessage {
+  padding: 35px;
+  text-align: center;
+  display: flex;
 }
