@@ -2,11 +2,14 @@
   box-sizing: border-box;
 }
 
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
   background-color: #FFFFFF;
 }
+
+
 #image_frontpage {
   max-width: 10px;
 }
