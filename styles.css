@@ -1,17 +1,13 @@
 * {
   box-sizing: border-box;
 }
-/*Main Page top banner with the website logo and introduction text*/
-.bannerBox {
-  display: inline;
-  width: 100px;
-  height: 500px;
-}
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
-  background-color: #2a9d8f;
+  background-color: white;
 }
+
 #image_frontpage {
   max-width: 10px;
 }
@@ -76,15 +72,4 @@ body {
   border: none;
   float: left;
   width: 50%;
-}
-/* About link css*/
-.aboutPage {
-  list-style-type: none;
-  border: none;
-}
-
-/*This is the css for the message on the front page*/
-.introMessage {
-  padding: 20px;
-  font-size: medium;
 }
