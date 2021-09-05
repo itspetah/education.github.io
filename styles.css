@@ -1,11 +1,16 @@
-*{
+* {
   box-sizing: border-box;
 }
-
+/*Main Page top banner with the website logo and introduction text*/
+.bannerBox {
+  display: inline;
+  width: 100px;
+  height: 500px;
+}
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
-  background-color: #FFFFFF;
+  background-color: #2a9d8f;
 }
 #image_frontpage {
   max-width: 10px;
@@ -19,7 +24,7 @@ body {
 }
 /* Dropdown Button */
 .dropbtn {
-  background-color: #04aa6d;
+  background-color: #e76f51;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -62,12 +67,24 @@ body {
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #f4a261;
 }
 
 /*Styles the man page content side by side*/
-.main-section1{
-  border: 5px dotted blue;
+.main-section1 {
+  font-family: "Varela Round", sans-serif;
+  border: none;
   float: left;
   width: 50%;
+}
+/* About link css*/
+.aboutPage {
+  list-style-type: none;
+  border: none;
+}
+
+/*This is the css for the message on the front page*/
+.introMessage {
+  padding: 20px;
+  font-size: medium;
 }

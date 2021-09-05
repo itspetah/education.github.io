@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-        href="https://fonts.googleapis.com/css?family=Lato"
-        rel="stylesheet"
-      />
-      <link rel="stylesheet" href="styles.css" />
-      <title>College102</title>
-    </head>
-    <body>
-      <h1><img src="images/png/slice1.png" alt="Logo with text College 102" width="100"> Welcome To College102</h1>
-    <hr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>College102</title>
+
+  </head>
+  <body>
+    <div class="bannerBox" style="display: inline;">
+      <h1>
+        <span style="text-align: left;"><img
+          src="images/png/slice1.png"
+          alt="Logo with text College 102"
+          width="100"
+        /></span>
+          <span style="display: inline; text-align: center;" >Welcome</span> <span style="font-weight: normal;"><br />To College102</span>
+        </h1>
+      </div>
+    </div>
 
     <!--This is a section-->
     <section class="main-section1">
-      <h4>PICK YOUR SCHOOL</h4>
-      <h5>Select your intended school or current school</h5>
-      <p>You will be taken to the school page</p>
+      <h4 font style="font-size: 130%; color: gray;">PICK YOUR SCHOOL</h4>
+      <h5 style="font-size: 150%;">
+        Type in your intended <br />school <br />or current school<br />
+      </h5>
+      <p style="font-size: 120%;">
+        You will be teleported to the main page of <br />your school for
+        resouces, news, and a lot of fun!
+      </p>
       <div class="dropdown">
         <h2>CUNY Colleges</h2>
         <button class="dropbtn">Select College</button>
@@ -34,39 +51,60 @@
         </div>
       </div>
     </section>
-      <hr>
+    
+        <!--This is the vertical line-->
+        <body style = "text-align: center;"> 
+  
+          <p style = "color: gray; font-size: 30px;"> 
+            <strong>Message</strong> <br />From the Creators
+          </p>
+                
+          <div class = "vertical"></div>
+    
+    
+        <!-- style to create vertical line -->
+        <style>
+          .vertical {
+            border-left: 3px solid gray;
+            height: 410px;
+            position: absolute;
+            left: 50%;
+            top: 20%;
+          }
+        </style>
+
     <!--Section end-->
-      <!--This is a section-->
+    <!--This is a section-->
     <section class="main-section1">
-          <!--This is the banner at the top of the page.-->
-    <div>
-      <p>
-        College102.5 solves the problem of "What will my degree do for me"? After
-        the pandemic, we at College102 noticed that a lot of educational goals
-        were disrupted from covid-19. We want to change that. Our website allows
-        you to type in your school and enter a personalized forum with the best
-        tips, tricks, and student opinions on your major. In addition,
-        College102 allows you to "pick" a roadmap and have a step-by-step plan
-        for whatever major you are taking. Whether you are looking for a
-        community, need guidance on your future, find the latest news in your
-        field/school or are looking for challenging courses, College102 provides
-        it all for students who want an A in life.
-      </p>
-    </div>
+      <!--This is the banner at the top of the page.-->
+      <div class="introMessage">
+        <p style="border: none;">
+          College102 solves the problem of "What will my degree do for me"?
+          After the pandemic, we at College102 noticed that a lot of educational
+          goals were disrupted from covid-19. We want to change that. Our
+          website allows you to type in your school and enter a personalized
+          forum with the best tips, tricks, and student opinions on your major.
+          In addition, College102 allows you to "pick" a roadmap and have a
+          step-by-step plan for whatever major you are taking. Whether you are
+          looking for a community, need guidance on your future, find the latest
+          news in your field/school or are looking for challenging courses,
+          College102 provides it all for students who want an A in life.
+        </p>
+      </div>
     </section>
-    <hr>
+    
     <!--Section end-->
 
 
     <footer>
-      <div>
+      <div class="aboutPage">
         <nav>
-          <ul>
+          <ul style="list-style-type: none;">
             <li><a href="about.html">About Us</a></li>
         </ul>
         </nav>
       </div>
-      <hr>
+      
     </footer>
     </body>
 </html>
