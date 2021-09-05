@@ -1,7 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
   margin: 0px;
-  background-color: #04aa6d;
+  background-color: #FFFFFF;
 }
 #image_frontpage {
   max-width: 10px;
@@ -59,4 +63,11 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+
+/*Styles the man page content side by side*/
+.main-section1{
+  border: 5px dotted blue;
+  float: left;
+  width: 50%;
 }
