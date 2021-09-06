@@ -136,3 +136,23 @@ body {
   width: 50%;
   margin-bottom: 20px;
 }
+/*This is the css files for the college nav bars*/
+.logo {
+  display: inline-flex;
+}
+
+.navItems {
+  display: inline-flex;
+  font-size: 120%;
+  height: 22px;
+  border-bottom: 1px solid black;
+
+  text-transform: uppercase;
+  left: 50%;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 92%;
+  height: 44px;
+  list-style-type: none;
+}
